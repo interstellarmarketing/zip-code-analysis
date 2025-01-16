@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.47.15",
+    "next": "^15.1.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.7",
+    "supabase": "^1.145.4",
+    "typescript": "5.7.3"
+  },
+  "scripts": {
+    "gen:types": "supabase gen types typescript --project-id xlusdazgafcgkomovijw > frontend/src/lib/types/supabase.ts",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  }
+}
